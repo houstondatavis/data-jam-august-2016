@@ -10,15 +10,15 @@
 
 4. **database.sqlite**: SQLite database containing the primary_results, county_facts, and county_facts_dictionary tables with identical data and schema
 
-5. **primary_results.csv**: Each row contains the votes and fraction of votes that a candidate received in a given county's primary. sample
-  - state: state where the primary or caucus was held
-  - state_abbreviation: two letter state abbreviation
-  - county: county where the results come from
-  - fips: FIPS county code
-  - party: Democrat or Republican
-  - candidate: name of the candidate
-  - votes: number of votes the candidate received in the corresponding state and county (may be missing)
-  - fraction_votes: fraction of votes the president received in the corresponding state, county, and primary
+5. **primary_results.csv**: Each row contains the votes and fraction of votes that a candidate received in a given county's primary
+  - `state`: state where the primary or caucus was held
+  - `state_abbreviation`: two letter state abbreviation
+  - `county`: county where the results come from
+  - `fips`: FIPS county code
+  - `party`: Democrat or Republican
+  - `candidate`: name of the candidate
+  - `votes`: number of votes the candidate received in the corresponding state and county (may be missing)
+  - `fraction_votes`: fraction of votes the president received in the corresponding state, county, and primary
 
 ## Sources
 - [Kaggle](https://www.kaggle.com/benhamner/2016-us-election)
