@@ -17,7 +17,7 @@ Each set has the following:
   | state     | state where the primary or caucus was held |
   | state_abbreviation | two letter state abbreviation     |
   | county    | county where the results come from         |
-  | fips      | FIPS county code                           |
+  | fips      | [FIPS county code](https://en.wikipedia.org/wiki/FIPS_county_code) |
   | party     | Democrat or Republican                     |
   | candidate | name of the candidate                      |
   | votes     | number of votes the candidate received in the corresponding state and county (may be missing) |
