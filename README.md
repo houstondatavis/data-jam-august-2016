@@ -9,8 +9,7 @@ We have the data available in **csv**, **[feather](https://blog.rstudio.org/2016
 Each set has the following:
 
 1. **county_facts**: demographic data on counties from US census
-  * **county_facts_dictionary**: description of the columns in **county_facts**
-
+  * **[county_facts_dictionary](https://github.com/houstondatavis/data-jam-august-2016/blob/master/csv/county_facts_dictionary.csv)**: description of the columns in **county_facts**
 1. **primary_results**: Each row contains the votes and fraction of votes that a candidate received in a given county's primary
 
   | Column    | Description                                |
