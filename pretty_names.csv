@@ -26,7 +26,7 @@
 "HSG445213","House_owner_pct","Homeownership rate, 2009-2013"
 "HSG096213","House_unit_multi_count","Housing units in multi-unit structures, percent, 2009-2013"
 "HSG495213","House_median_value","Median value of owner-occupied housing units, 2009-2013"
-"HSD410213","House_household_count",Households, 2009-2013"
+"HSD410213","House_household_count","Households, 2009-2013"
 "HSD310213","House_avg_persons_per_count","Persons per household, 2009-2013"
 "INC910213","Income_per_capita","Per capita money income in past 12 months (2013 dollars), 2009-2013"
 "INC110213","Income_median_per_household","Median household income, 2009-2013"
