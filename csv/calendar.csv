@@ -1,0 +1,114 @@
+State,Party,Election date,Filing deadline,Election type,Open or closed,Pledged delegates,Unpledged delegates,Total delegates
+Iowa,Democratic,2/1/2016,1/22/2016,Caucuses,Closed,44,7,51
+Iowa,Republican,2/1/2016,,Caucuses,Closed,30,0,30
+New Hampshire,Democratic,2/9/2016,11/20/2015,Primary,Closed,24,8,32
+New Hampshire,Republican,2/9/2016,11/20/2015,Primary,Closed,23,0,23
+Nevada,Democratic,2/20/2016,1/1/2016,Caucuses,Closed,35,8,43
+South Carolina,Republican,2/20/2016,9/30/2015,Primary,Open,50,0,50
+Nevada,Republican,2/23/2016,1/9/2016,Caucuses,Closed,30,0,30
+South Carolina,Democratic,2/27/2016,11/16/2015,Primary,Open,53,6,59
+North Dakota,Republican,1/19/2016 - 2/28/2016,,Caucuses,Open,0,28,28
+Alabama,Democratic,3/1/2016,11/6/2015,Primary,Closed,53,7,60
+Alabama,Republican,3/1/2016,11/6/2015,Primary,Open,50,0,50
+Alaska,Republican,3/1/2016,1/28/2016,Caucuses,Closed,28,0,28
+American Samoa,Democratic,3/1/2016,,Caucuses,Open,6,5,11
+Arkansas,Democratic,3/1/2016,11/9/2015,Primary,Open,32,5,37
+Arkansas,Republican,3/1/2016,11/9/2015,Primary,Open,40,0,40
+Colorado,Democratic,3/1/2016,1/25/2016,Caucuses,Closed,66,12,78
+Colorado,Republican,3/1/2016,,Caucuses,Closed,34,3,37
+Georgia,Democratic,3/1/2016,10/29/2015,Primary,Open,102,15,117
+Georgia,Republican,3/1/2016,,Primary,Open,76,0,76
+Massachusetts,Democratic,3/1/2016,1/4/2016,Primary,Mixed,91,24,115
+Massachusetts,Republican,3/1/2016,1/4/2016,Primary,Mixed,42,0,42
+Minnesota,Democratic,3/1/2016,1/4/2016,Caucuses,Open,77,16,93
+Minnesota,Republican,3/1/2016,,Caucuses,Open,38,0,38
+Oklahoma,Democratic,3/1/2016,12/9/2015,Primary,Mixed,38,4,42
+Oklahoma,Republican,3/1/2016,12/9/2015,Primary,Closed,43,0,43
+Tennessee,Democratic,3/1/2016,12/1/2015,Primary,Open,67,8,75
+Tennessee,Republican,3/1/2016,12/1/2015,Primary,Open,58,0,58
+Texas,Democratic,3/1/2016,12/14/2015,Primary,Open,222,29,251
+Texas,Republican,3/1/2016,12/14/2015,Primary,Open,155,0,155
+Vermont,Democratic,3/1/2016,1/11/2016,Primary,Open,16,10,26
+Vermont,Republican,3/1/2016,1/11/2016,Primary,Open,16,0,16
+Virginia,Democratic,3/1/2016,12/10/2015,Primary,Open,95,13,108
+Virginia,Republican,3/1/2016,12/10/2015,Primary,Open,49,0,49
+Wyoming,Republican,3/1/2016,,Caucuses,Closed,26,3,29
+Kansas,Democratic,3/5/2016,3/1/2016,Caucuses,Closed,33,4,37
+Kansas,Republican,3/5/2016,1/20/2016,Caucuses,Closed,40,0,40
+Kentucky,Republican,3/5/2016,1/7/2016,Caucuses,Closed,45,0,45
+Louisiana,Democratic,3/5/2016,12/4/2015,Primary,Closed,51,8,59
+Louisiana,Republican,3/5/2016,12/4/2015,Primary,Closed,47,0,47
+Maine,Republican,3/5/2016,12/15/2015,Caucuses,Closed,23,0,23
+Nebraska,Democratic,3/5/2016,2/1/2016,Caucuses,Closed,25,5,30
+Maine,Democratic,3/6/2016,12/15/2015,Caucuses,Closed,25,5,30
+Puerto Rico,Republican,3/6/2016,1/13/2016,Primary,Open,23,0,23
+Hawaii,Republican,3/8/2016,2/23/2016,Caucuses,Closed,19,0,19
+Idaho,Republican,3/8/2016,12/9/2015,Primary,Closed,32,0,32
+Michigan,Democratic,3/8/2016,12/11/2015,Primary,Open,130,17,147
+Michigan,Republican,3/8/2016,12/11/2015,Primary,Open,59,0,59
+Mississippi,Democratic,3/8/2016,1/15/2016,Primary,Open,36,5,41
+Mississippi,Republican,3/8/2016,1/15/2016,Primary,Open,40,0,40
+Democrats Abroad,Democratic,3/1/2016 - 3/8/2016,,Caucuses,N/A,13,4,17
+Virgin Islands,Republican,3/10/2016,,Caucuses,Open,6,3,9
+Guam,Republican,3/12/2016,,Territorial convention,Closed,0,9,9
+Northern Marianas,Democratic,3/12/2016,,Caucuses,Closed,6,5,11
+"Washington, D.C.",Republican,3/12/2016,1/4/2016,Caucuses,Closed,19,0,19
+Florida,Democratic,3/15/2016,11/30/2015,Primary,Closed,214,32,246
+Florida,Republican,3/15/2016,11/30/2015,Primary,Closed,99,0,99
+Illinois,Democratic,3/15/2016,1/6/2016,Primary,Open,156,27,183
+Illinois,Republican,3/15/2016,1/6/2016,Primary,Open,69,0,69
+Missouri,Democratic,3/15/2016,12/29/2015,Primary,Open,71,13,84
+Missouri,Republican,3/15/2016,12/29/2015,Primary,Open,52,0,52
+North Carolina,Democratic,3/15/2016,12/21/2015,Primary,Mixed,107,13,120
+North Carolina,Republican,3/15/2016,12/21/2015,Primary,Mixed,72,0,72
+Northern Mariana Islands,Republican,3/15/2016,,Caucuses,Closed,9,0,9
+Ohio,Democratic,3/15/2016,12/16/2015,Primary,Open,143,17,160
+Ohio,Republican,3/15/2016,12/16/2015,Primary,Open,66,0,66
+American Samoa,Republican,3/22/2016,,Territorial convention,Open,0,9,9
+Arizona,Democratic,3/22/2016,12/14/2015,Primary,Closed,75,10,85
+Arizona,Republican,3/22/2016,12/14/2015,Primary,Closed,58,0,58
+Idaho,Democratic,3/22/2016,2/25/2016,Caucuses,Open,23,4,27
+Utah,Democratic,3/22/2016,2/5/2016,Caucuses,Open,33,4,37
+Utah,Republican,3/22/2016,,Caucuses,Closed,40,0,40
+Alaska,Democratic,3/26/2016,1/29/2016,Caucuses,Closed,16,4,20
+Hawaii,Democratic,3/26/2016,1/8/2016,Caucuses,Closed,25,10,35
+Washington,Democratic,3/26/2016,2/26/2016,Caucuses,Open,101,17,118
+Wisconsin,Democratic,4/5/2016,1/26/2016,Primary,Open,86,10,96
+Wisconsin,Republican,4/5/2016,1/26/2016,Primary,Open,42,0,42
+Wyoming,Democratic,4/9/2016,3/10/2016,Caucuses,Closed,14,4,18
+New York,Democratic,4/19/2016,2/4/2016,Primary,Closed,247,44,291
+New York,Republican,4/19/2016,2/4/2016,Primary,Closed,95,0,95
+Connecticut,Democratic,4/26/2016,3/4/2016,Primary,Closed,55,16,71
+Connecticut,Republican,4/26/2016,3/4/2016,Primary,Closed,28,0,28
+Delaware,Democratic,4/26/2016,2/26/2016,Primary,Closed,21,11,32
+Delaware,Republican,4/26/2016,2/26/2016,Primary,Closed,16,0,16
+Maryland,Democratic,4/26/2016,2/3/2016,Primary,Closed,95,24,119
+Maryland,Republican,4/26/2016,2/3/2016,Primary,Closed,38,0,38
+Pennsylvania,Democratic,4/26/2016,2/16/2016,Primary,Closed,189,19,208
+Pennsylvania,Republican,4/26/2016,2/16/2016,Primary,Closed,17,54,71
+Rhode Island,Democratic,4/26/2016,1/23/2016,Primary,Mixed,24,9,33
+Rhode Island,Republican,4/26/2016,1/23/2016,Primary,Mixed,19,0,19
+Indiana,Democratic,5/3/2016,2/5/2016,Primary,Open,83,9,92
+Indiana,Republican,5/3/2016,2/5/2016,Primary,Open,57,0,57
+Guam,Democratic,5/7/2016,,Caucuses,Closed,7,5,12
+Nebraska,Republican,5/10/2016,3/11/2016,Primary,Closed,36,0,36
+West Virginia,Democratic,5/10/2016,1/30/2016,Primary,Mixed,29,8,37
+West Virginia,Republican,5/10/2016,1/30/2016,Primary,Mixed,34,0,34
+Kentucky,Democratic,5/17/2016,1/26/2016,Primary,Closed,55,5,60
+Oregon,Democratic,5/17/2016,3/8/2016,Primary,Closed,61,13,74
+Oregon,Republican,5/17/2016,3/8/2016,Primary,Closed,28,0,28
+Washington,Republican,5/24/2016,3/10/2016,Primary,Closed,44,0,44
+Virgin Islands,Democratic,6/4/2016,,Caucuses,Open,7,5,12
+Puerto Rico,Democratic,6/5/2016,4/1/2016,Caucuses,Open,60,7,67
+California,Democratic,6/7/2016,3/26/2016,Primary,Mixed,475,75,550
+California,Republican,6/7/2016,3/26/2016,Primary,Open,172,0,172
+Montana,Democratic,6/7/2016,3/14/2016,Primary,Open,21,6,27
+Montana,Republican,6/7/2016,3/14/2016,Primary,Open,27,0,27
+New Jersey,Democratic,6/7/2016,4/4/2016,Primary,Closed,126,16,142
+New Jersey,Republican,6/7/2016,4/4/2016,Primary,Closed,51,0,51
+New Mexico,Democratic,6/7/2016,2/2/2016,Primary,Closed,34,9,43
+New Mexico,Republican,6/7/2016,2/2/2016,Primary,Closed,24,0,24
+North Dakota,Democratic,6/7/2016,5/2/2016,Caucuses,Open,18,5,23
+South Dakota,Democratic,6/7/2016,3/29/2016,Primary,Mixed,20,5,25
+South Dakota,Republican,6/7/2016,3/29/2016,Primary,Closed,29,0,29
+"Washington, D.C.",Democratic,6/14/2016,3/16/2016,Primary,Closed,20,26,46
