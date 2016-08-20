@@ -23,6 +23,15 @@ Each set has the following:
   | votes     | number of votes the candidate received in the corresponding state and county (may be missing) |
   | fraction_votes | fraction of votes the president received in the corresponding state, county, and primary |
 
+1. **primary_schedule**: Each row contains the schedule and type of the primary election by state and party
+
+  | Column | Description                                |
+  | ------:| ------------------------------------------ |
+  | date   | date when the primary of caucus was held   |
+  | state  | state where the primary or caucus was held |
+  | party  | political party                            |
+  | type   | election type                              |
+
 Additionally, we have each county's shapefiles
 
 **county_shapefiles**: directory containing county shapefiles at three different resolutions for mapping
