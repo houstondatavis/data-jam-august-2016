@@ -20,7 +20,7 @@
 "POP815213","Pop_nonenglish_home_pct","Language other than English spoken at home, pct age 5+, 2009-2013"
 "EDU635213","Pop_hs_grad_pct","High school graduate or higher, percent of persons age 25+, 2009-2013"
 "EDU685213","Pop_college_grad_pct","Bachelor's degree or higher, percent of persons age 25+, 2009-2013"
-"VET605213","Veterans_count","Veterans, 2009-2013"
+"VET605213","Pop_veterans_count","Veterans, 2009-2013"
 "LFE305213","Pop_avg_commute_mins","Mean travel time to work (minutes), workers age 16+, 2009-2013"
 "HSG010214","House_unit_count","Housing units, 2014"
 "HSG445213","House_owner_pct","Homeownership rate, 2009-2013"
