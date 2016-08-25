@@ -1,0 +1,102 @@
+---
+title: "Primary election"
+author: "Victor Kostyuk"
+date: "August 20, 2016"
+output: html_document
+---
+
+```{r setup, echo = TRUE, message = FALSE}
+# Load libraries
+library(dplyr)
+library(tidyr)
+library(randomForest)
+library(forestFloor)
+knitr::opts_chunk$set(fig.path='Figs/', echo = TRUE, warning = FALSE, 
+                      message = FALSE, results = "hide")
+```
+
+```{r load_data, cache = TRUE}
+results <- read.csv("csv/primary_results.csv", header = TRUE)
+county <- read.csv("csv/county_facts.csv", header = TRUE)
+```
+
+```{r clean_and_combine, cache = TRUE}
+# Widen results, one county per row
+df <- results %>%
+  select(-party) %>%
+  gather(variable, value, votes:fraction_votes) %>% 
+  unite(tmp, candidate, variable) %>% 
+  spread(tmp, value) %>% 
+  # Join county features
+  inner_join(county, by = "fips")
+```
+
+# Visualizing partial response and feature interaction in a random forest
+
+We define a response `Clinton_over_trump` as the difference of Clinton's fraction of votes and Trump's.
+
+Then, we use a random forest to model this response and explore variable importance and interaction using the `forestFloor` package.
+
+```{r clint_over_trump, cache = TRUE}
+df$Clinton_over_trump <- 
+  df$`Hillary Clinton_fraction_votes` - df$`Donald Trump_fraction_votes`
+
+df_no_na <- df[!(is.na(df$Clinton_over_trump)), ]
+
+x <- df_no_na[, 39:89]
+y <- df_no_na$Clinton_over_trump
+
+rf_ct <- randomForest(x, y, scale = FALSE, ntree = 1000,
+                   keep.forest = TRUE, keep.inbag = TRUE,
+                   importance = TRUE)
+
+# Increase in node purity importance
+varImpPlot(rf_ct, type = 2)
+```
+
+```{r, cache = TRUE}
+# Forest floor -- can't figure out how to use increse in MSE importance,
+# so using increase in node purity (somewhat worse)
+ff <- forestFloor(rf_ct, x, calc_np = FALSE)
+```
+
+Color gradient corresponds to the first most important feature:
+
+```{r}
+Col <- fcol(ff, 1, orderByImportance = TRUE)
+plot(ff, col = Col, plot_seq = 1:9, 
+     orderByImportance = TRUE)
+```
+
+Color gradient corresponds to the second most important feature:
+
+```{r}
+Col <- fcol(ff, 2, orderByImportance = TRUE)
+plot(ff, col = Col, plot_seq = 1:9, 
+     orderByImportance = TRUE)
+```
+
+Color gradient corresponds to first principal component of the first three most important features:
+
+```{r}
+Col <- fcol(ff, 1:3, max.df = 1, orderByImportance = TRUE)
+plot(ff, col = Col, plot_seq = 1:9, 
+     orderByImportance = TRUE)
+```
+
+Color gradient corresponds to incompe per capita:
+
+```{r}
+Col <- fcol(ff, which(colnames(x) == "Income_per_capita"), orderByImportance = FALSE)
+plot(ff, col = Col, plot_seq = 1:9, 
+     orderByImportance = TRUE)
+```
+
+Here's how to see an rgl 3d plot across two features.
+
+```{r, eval = FALSE}
+# The x-y plane is spanned by the first and ninth most important feature,
+# color grandient corresponds to first feature
+show3d(ff,c(1,9), col = fcol(ff, 1, orderByImportance = TRUE), 
+       orderByImportance = TRUE)
+```
